@@ -1,0 +1,275 @@
+.status {
+    text-align: center;
+    font-size: 18px;
+}
+
+.status.error {
+    color: var(--error);
+}
+
+.filme-section {
+    padding: 48px;
+}
+
+.topo-secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto 20px auto;
+}
+
+.filme-section h2 {
+    font-size: 32px;
+    color: var(--txt-destacado);
+}
+
+.area-buscas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.barra-pesquisa-composta {
+    display: flex;
+    align-items: stretch;
+    background-color: var(--bg);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    width: 100%;
+    min-width: 350px;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.barra-pesquisa-composta:focus-within {
+    border-color: var(--brilhos);
+    box-shadow: 0 0 10px var(--sombra-foco);
+}
+
+.campo-busca {
+    background-color: transparent;
+    border: none;
+    color: var(--txt-principal);
+    padding: 12px 16px;
+    font-size: 14px;
+    outline: none;
+    flex: 1;
+}
+
+.botao-abrir-filtros {
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid var(--primary);
+    color: var(--txt-principal);
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.botao-abrir-filtros:hover {
+    background-color: var(--primary-transparente);
+}
+
+.painel-filtros {
+    background-color: var(--superficie-cards);
+    border: 1px solid var(--primary);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+    box-shadow: 0 8px 25px var(--sombra-padrao);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.grupo-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.grupo-filtro label {
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: 700;
+    color: var(--txt-principal);
+    text-transform: uppercase;
+}
+
+.grupo-filtro select,
+.grupo-filtro input {
+    background-color: var(--bg);
+    border: 1px solid var(--superficie-cards-border);
+    color: var(--txt-principal);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    min-width: 150px;
+}
+
+.grupo-filtro select:focus,
+.grupo-filtro input:focus {
+    border-color: var(--primary);
+}
+
+.botao-limpar-filtros {
+    align-self: flex-end;
+    background-color: transparent;
+    color: var(--error);
+    border: 1px solid var(--error);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.botao-limpar-filtros:hover {
+    background-color: var(--erro-bg);
+}
+
+.filme-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.filme-card {
+    padding: 12px;
+    background-color: var(--superficie-cards);
+    border: 1px solid var(--superficie-cards-border);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px var(--sombra-padrao);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filme-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--brilhos);
+    box-shadow: 0 8px 25px var(--sombra-padrao);
+}
+
+.filme-card img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.filme-info {
+    padding: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.filme-info h3 {
+    font-size: 16px;
+    color: var(--txt-principal);
+    font-weight: 900; 
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.filme-info p {
+    color: var(--txt-principal);
+    font-size: 13px;
+    margin: 0;
+}
+
+.card-generos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.card-genero-tag {
+    background-color: var(--primary-transparente);
+    color: var(--txt-principal);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
+.card-sinopse {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.modo-alto-contraste {
+    background-color: var(--ac-bg) !important;
+}
+
+.modo-alto-contraste .header-nav,
+.modo-alto-contraste .filme-card,
+.modo-alto-contraste .barra-pesquisa-composta,
+.modo-alto-contraste .painel-filtros {
+    background-color: var(--ac-bg) !important;
+    border: 2px solid var(--ac-txt) !important;
+    box-shadow: none !important;
+}
+
+.modo-alto-contraste .header-nav h1,
+.modo-alto-contraste .frase,
+.modo-alto-contraste .filme-section h2,
+.modo-alto-contraste .filme-info h3,
+.modo-alto-contraste .filme-info p,
+.modo-alto-contraste .campo-busca,
+.modo-alto-contraste .botao-abrir-filtros,
+.modo-alto-contraste .grupo-filtro label {
+    color: var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .grupo-filtro select,
+.modo-alto-contraste .grupo-filtro input {
+    background-color: var(--ac-bg) !important;
+    color: var(--ac-txt) !important;
+    border: 1px solid var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .botao-acessar {
+    background-color: var(--ac-accent) !important;
+    color: var(--ac-bg) !important;
+    border: 2px solid var(--ac-accent) !important;
+    box-shadow: none !important;
+}
+
+.modo-alto-contraste .botao-abrir-filtros {
+    border-left: 2px solid var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .card-genero-tag {
+    background-color: var(--ac-bg) !important;
+    color: var(--ac-txt) !important;
+    border: 1px solid var(--ac-txt) !important;
+}

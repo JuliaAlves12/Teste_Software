@@ -1,0 +1,125 @@
+.pagina-login {
+    min-height: 100vh;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: var(--superficie-cards);
+    padding: 48px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px var(--sombra-padrao);
+    border: 1px solid var(--superficie-cards-border);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.login-form h2 {
+    color: var(--txt-destacado);
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.mensagem-erro {
+    background-color: var(--erro-bg);
+    color: var(--erro-txt);
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid var(--erro-txt);
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.grupo-input label {
+    color: var(--txt-principal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.grupo-input input {
+    background-color: var(--bg);
+    border: 1px solid var(--primary);
+    color: var(--txt-principal);
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.grupo-input input:focus {
+    border-color: var(--primary-hover);
+    box-shadow: 0 0 10px var(--sombra-foco);
+}
+
+.botao-entrar {
+    background-color: var(--primary);
+    color: var(--txt-principal);
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.botao-entrar:hover:not(:disabled) {
+    background-color: var(--primary-hover);
+}
+
+.botao-entrar:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+.botao-entrar:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.modo-alto-contraste {
+    background-color: var(--ac-bg) !important;
+}
+
+.modo-alto-contraste .login-form {
+    background-color: var(--ac-bg) !important;
+    border: 2px solid var(--ac-txt) !important;
+    box-shadow: none !important;
+}
+
+.modo-alto-contraste .login-form h2,
+.modo-alto-contraste .grupo-input label {
+    color: var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .grupo-input input {
+    background-color: var(--ac-bg) !important;
+    color: var(--ac-txt) !important;
+    border: 2px solid var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .botao-entrar {
+    background-color: var(--ac-accent) !important;
+    color: var(--ac-bg) !important;
+    border: 2px solid var(--ac-accent) !important;
+}

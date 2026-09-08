@@ -1,0 +1,252 @@
+.pagina-admin {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+.admin-container {
+    flex: 1;
+    width: 100%;
+    max-width: 1080px;
+    margin: 40px auto;
+    padding: 0 40px;
+}
+
+.topo-admin {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.topo-admin h2 {
+    font-size: 32px;
+    color: var(--txt-destacado);
+    margin-bottom: 8px;
+}
+
+.topo-admin p {
+    color: var(--txt-principal);
+}
+
+.sem-pendentes {
+    text-align: center;
+    padding: 50px;
+    background-color: var(--superficie-cards);
+    border-radius: 16px;
+    border: 1px solid var(--superficie-cards-border);
+    color: var(--txt-principal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.grid-pendentes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-pendente {
+    display: flex;
+    gap: 24px;
+    background-color: var(--superficie-cards);
+    border: 1px solid var(--superficie-cards-border);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px var(--sombra-padrao);
+}
+
+.poster-pendente {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--superficie-cards-border);
+}
+
+.info-pendente {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.info-pendente h3 {
+    color: var(--txt-principal);
+    font-weight: 900; 
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.ano-pendente {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.sinopse-pendente {
+    color: var(--txt-principal);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.botoes-acoes {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.botao-aprovar {
+    background-color: #119052;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-aprovar:hover {
+    background-color: #0d6d3f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+}
+
+.botao-reprovar {
+    background-color: #DF4747;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-reprovar:hover {
+    background-color: #c53636;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(198, 40, 40, 0.3);
+}
+
+.alerta-admin {
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.alert-sucesso {
+    background-color: var(--sucesso-bg);
+    color: var(--sucesso-txt);
+    border: 1px solid var(--sucesso-txt);
+}
+
+.alert-erro {
+    background-color: var(--erro-bg);
+    color: var(--erro-txt);
+    border: 1px solid var(--erro-txt);
+}
+
+.titulo-secao-admin {
+    color: var(--txt-destacado);
+    font-size: 22px;
+    margin: 36px 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--superficie-cards-border);
+}
+
+.card-edicao {
+    background-color: var(--superficie-cards);
+    border: 1px solid var(--superficie-cards-border);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px var(--sombra-padrao);
+}
+
+.card-edicao h3 {
+    color: var(--txt-principal);
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.comparacao-edicao {
+    margin: 16px 0 20px 0;
+    border: 1px solid var(--superficie-cards-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.comparacao-cabecalho,
+.comparacao-linha {
+    display: grid;
+    grid-template-columns: 140px 1fr 1fr;
+    gap: 12px;
+    padding: 10px 14px;
+}
+
+.comparacao-cabecalho {
+    background-color: var(--bg);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--txt-principal);
+}
+
+.comparacao-linha {
+    border-top: 1px solid var(--superficie-cards-border);
+    font-size: 14px;
+    color: var(--txt-principal);
+    word-break: break-word;
+}
+
+.comparacao-linha .comp-campo {
+    font-weight: bold;
+    color: var(--txt-principal);
+}
+
+.comparacao-linha.mudou {
+    background-color: var(--primary-transparente);
+}
+
+.comparacao-linha.mudou .comp-antes {
+    color: var(--erro-txt);
+    text-decoration: line-through;
+}
+
+.comparacao-linha.mudou .comp-depois {
+    color: var(--sucesso-txt);
+    font-weight: bold;
+}
+
+.modo-alto-contraste .card-pendente,
+.modo-alto-contraste .card-edicao,
+.modo-alto-contraste .comparacao-edicao {
+    background-color: var(--ac-bg) !important;
+    border: 2px solid var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .comparacao-linha.mudou,
+.modo-alto-contraste .comparacao-linha.mudou .comp-antes,
+.modo-alto-contraste .comparacao-linha.mudou .comp-depois {
+    background-color: var(--ac-bg) !important;
+    color: var(--ac-txt) !important;
+}
+
+.modo-alto-contraste h2, 
+.modo-alto-contraste h3, 
+.modo-alto-contraste p {
+    color: var(--ac-txt) !important;
+}
+
+.modo-alto-contraste .botao-aprovar,
+.modo-alto-contraste .botao-reprovar {
+    background-color: var(--ac-bg) !important;
+    color: var(--ac-txt) !important;
+    border: 2px solid var(--ac-txt) !important;
+}

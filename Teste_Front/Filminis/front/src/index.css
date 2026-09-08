@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@700&display=swap');
+
+:root {
+  --bg: #08040f;
+  --superficie-cards: #1A0E23;
+  --superficie-cards-border: #321747;
+  --primary: #A657E6;
+  --brilhos: #B57BFF;
+  --botao-claro-bg: #ffffff;
+  --botao-claro-txt: #000000;
+  
+  --txt-destacado: #D8C4FF;
+  --txt-principal: #F5F0FF;
+  
+  --primary-hover: var(--brilhos);
+  --primary-transparente: #a657e626;
+  
+  --error: #DF4747;
+  --erro-txt: var(--error);
+  --erro-bg: rgba(255, 70, 70, 0.1);
+  
+  --sucesso-txt: #119052;
+  --sucesso-bg: rgba(0, 200, 83, 0.1);
+  
+  --sombra-padrao: rgba(0, 0, 0, 0.5);
+  --sombra-foco: rgba(181, 123, 255, 0.25);
+  --sombra-botao-brilho: rgba(157, 78, 221, 0.35);
+  
+  --ac-bg: #000000;
+  --ac-txt: #ffffff;
+  --ac-accent: #ffff00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  min-height: 100vh;
+  color: var(--txt-principal);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 900; 
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}

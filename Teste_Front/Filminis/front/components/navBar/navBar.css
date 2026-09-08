@@ -1,0 +1,129 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 40px;
+    background-color: var(--superficie-cards);
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 1;
+    box-shadow: 0 4px 20px var(--sombra-padrao);
+}
+
+.left-navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.left-navbar a {
+    text-decoration: none;
+}
+
+.left-navbar h1 {
+    color: var(--txt-destacado);
+    font-size: 32px;
+    margin: 0;
+}
+
+.frase {
+    color: var(--txt-principal);
+    font-size: 14px;
+    margin: 0;
+}
+
+.right-navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.botao-contraste,
+.botao-adicionar,
+.botao-perfil {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, opacity 0.2s, background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.botao-contraste:active,
+.botao-adicionar:active,
+.botao-perfil:active {
+    transform: scale(0.95);
+}
+
+.botao-contraste {
+    background-color: var(--primary);
+    color: var(--txt-principal);
+}
+
+.botao-contraste:hover {
+    background-color: var(--primary-hover);
+}
+
+.botao-adicionar {
+    background-color: var(--botao-claro-bg);
+    color: var(--botao-claro-txt);
+}
+
+.botao-adicionar:hover {
+    opacity: 0.85;
+}
+
+.perfil-admin {
+    background-color: #A657E6;
+    color: #ffffff;
+}
+
+.perfil-admin:hover {
+    background-color: #B57BFF;
+    box-shadow: 0 4px 12px rgba(166, 87, 230, 0.4);
+    transform: translateY(-2px);
+}
+
+.perfil-user {
+    background-color: transparent;
+    color: var(--txt-principal);
+    border: 2px solid var(--primary);
+    padding: 8px 22px; 
+}
+
+.perfil-user:hover {
+    background-color: var(--primary);
+    color: var(--txt-principal);
+    box-shadow: 0 4px 12px var(--sombra-foco);
+    transform: translateY(-2px);
+}
+
+.right-navbar a p {
+    color: var(--txt-principal);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    transition: color 0.2s;
+}
+
+.right-navbar a p:hover {
+    color: var(--primary-hover);
+}
+
+.modo-alto-contraste .botao-perfil {
+    background-color: var(--ac-bg) !important;
+    color: var(--ac-txt) !important;
+    border: 2px solid var(--ac-txt) !important;
+    box-shadow: none !important;
+}
+
+.modo-alto-contraste .botao-perfil:hover {
+    color: var(--ac-accent) !important;
+    border-color: var(--ac-accent) !important;
+}

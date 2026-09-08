@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "titulo": "Crepúsculo",
+    "ano": 2008,
+    "duracao": "02:02:00",
+    "orcamento": 37000000,
+    "poster": "https://br.web.img2.acsta.net/medias/nmedia/18/87/02/32/19871201.jpg",
+    "produtora_principal": { "id": 1, "nome": "Summit Entertainment" },
+    "categorias": ["Fantasia", "Romance", "Drama"],
+    "diretores": ["Catherine Hardwicke"],
+    "atores": ["Kristen Stewart", "Robert Pattinson", "Taylor Lautner"],
+    "linguagens": ["Inglês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 2,
+    "titulo": "A Princesa Mononoke",
+    "ano": 1997,
+    "duracao": "02:13:00",
+    "orcamento": 20000000,
+    "poster": "https://i0.wp.com/studioghibli.com.br/wp-content/uploads/2025/03/Poster-Princesa-Mononoke-IMAX-scaled.jpeg",
+    "produtora_principal": { "id": 2, "nome": "Studio Ghibli" },
+    "categorias": ["Fantasia", "Aventura", "Animação"],
+    "diretores": ["Hayao Miyazaki"],
+    "atores": ["Yōji Matsuda", "Yuriko Ishida", "Yūko Tanaka"],
+    "linguagens": ["Japonês"],
+    "paises": ["Japão"]
+  },
+
+  {
+    "id": 3,
+    "titulo": "Nosferatu",
+    "ano": 2024,
+    "duracao": "02:12:00",
+    "orcamento": 50000000,
+    "poster": "https://m.media-amazon.com/images/I/715BLU5YPZL.jpg",
+    "produtora_principal": { "id": 3, "nome": "Regency Enterprises" },
+    "categorias": ["Terror", "Ficção Científica"],
+    "diretores": ["Robert Eggers"],
+    "atores": ["Bill Skarsgård", "Lily-Rose Depp", "Nicholas Hoult"],
+    "linguagens": ["Inglês", "Romeno", "Romani", "Russo", "Latim", "Alemão"],
+    "paises": ["Estados Unidos", "Suécia"]
+  },
+
+  {
+    "id": 4,
+    "titulo": "Hellboy",
+    "ano": 2019,
+    "duracao": "02:01:00",
+    "orcamento": 50000000,
+    "poster": "https://img.elo7.com.br/product/zoom/25FA55C/big-poster-filme-hellboy-2019-lo004-tamanho-90x60-cm-hellboy.jpg",
+    "produtora_principal": { "id": 4, "nome": "Millenium Films" },
+    "categorias": ["Fantasia", "Ação", "Terror"],
+    "diretores": ["Neil Marshall"],
+    "atores": ["David Harbour", "Milla Jovovich"],
+    "linguagens": ["Inglês", "Espanhol", "Dinamarquês", "Alemão"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 5,
+    "titulo": "The Batman",
+    "ano": 2022,
+    "duracao": "02:56:00",
+    "orcamento": 185000000,
+    "poster": "https://img.elo7.com.br/product/zoom/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg",
+    "produtora_principal": { "id": 5, "nome": "6th & Idaho" },
+    "categorias": ["Ação", "Drama", "Neo-noir", "Super-herói"],
+    "diretores": ["Matt Reeves"],
+    "atores": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano"],
+    "linguagens": ["Inglês", "Espanhol", "Latim"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 6,
+    "titulo": "Superman",
+    "ano": 2025,
+    "duracao": "02:30:00",
+    "orcamento": 225000000,
+    "poster": "https://ingresso-a.akamaihd.net/b2b/production/uploads/articles-content/8923869c-f8a6-4258-ba74-4170bf7fb202.jpg",
+    "produtora_principal": { "id": 6, "nome": "Warner Bros." },
+    "categorias": ["Ação", "Fantasia", "Super-herói"],
+    "diretores": ["James Gunn"],
+    "atores": ["David Corenswet", "Rachel Brosnahan", "Milly Alcock"],
+    "linguagens": ["Inglês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 7,
+    "titulo": "Pecadores",
+    "ano": 2025,
+    "duracao": "02:17:00",
+    "orcamento": 90000000,
+    "poster": "https://ingresso-a.akamaihd.net/prd/img/movie/pecadores/7f6c9699-002e-43a8-adb3-49d2055014fd.webp",
+    "produtora_principal": { "id": 7, "nome": "Proximity Media" },
+    "categorias": ["Terror", "Fantasia", "Drama"],
+    "diretores": ["Ryan Coogler"],
+    "atores": ["Michael B. Jordan", "Hailee Steinfeld"],
+    "linguagens": ["Inglês", "Chinês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 8,
+    "titulo": "Frankenstein",
+    "ano": 2025,
+    "duracao": "02:30:00",
+    "orcamento": 120000000,
+    "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2025/08/31180656/frankenstein-2025-poster-691x1024.jpg",
+    "produtora_principal": { "id": 8, "nome": "Netflix" },
+    "categorias": ["Terror", "Drama", "Ficção Científica"],
+    "diretores": ["Guillermo del Toro"],
+    "atores": ["Oscar Isaac", "Jacob Elordi", "Mia Goth"],
+    "linguagens": ["Inglês", "Dinamarquês", "Francês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 18,
+    "titulo": "Duna",
+    "ano": 2021,
+    "duracao": "02:35:00",
+    "orcamento": 165000000,
+    "poster": "https://img.elo7.com.br/product/zoom/3E882A2/big-poster-filme-duna-tamanho-90x60-cm-duna.jpg",
+    "produtora_principal": { "id": 14, "nome": "Legendary Pictures" },
+    "categorias": ["Ficção Científica", "Aventura"],
+    "diretores": ["Denis Villeneuve"],
+    "atores": ["Timothée Chalamet", "Zendaya", "Oscar Isaac"],
+    "linguagens": ["Inglês", "Francês", "Mandarim"],
+    "paises": ["Estados Unidos", "França"]
+  },
+  
+{
+    "id": 9,
+    "titulo": "Adrenalina",
+    "ano": 2006,
+    "duracao": "01:28:00",
+    "orcamento": 12000000,
+    "poster": "https://br.web.img3.acsta.net/medias/nmedia/18/86/97/09/19870658.jpg",
+    "produtora_principal": "Lakeshore Entertainment",
+    "categorias": ["Ação", "Crime", "Thriller"],
+    "diretores": ["Mark Neveldine", "Brian Taylor"],
+    "atores": ["Jason Statham", "Amy Smart"],
+    "linguagens": ["Inglês", "Espanhol"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 10,
+    "titulo": "Moulin Rouge",
+    "ano": 2001,
+    "duracao": "02:06:00",
+    "orcamento": 50000000,
+    "poster": "https://uauposters.com.br/media/catalog/product/3/4/346820211103-uau-posters-moulin-rouge-filmes.jpg",
+    "produtora_principal": "20th Century Fox",
+    "categorias": ["Drama", "Musical", "Romance"],
+    "diretores": ["Baz Luhrmann"],
+    "atores": ["Nicole Kidman", "Ewan McGregor"],
+    "linguagens": ["Inglês", "Francês", "Espanhol"],
+    "paises": ["Estados Unidos", "Austrália"]
+  },
+
+  {
+    "id": 11,
+    "titulo": "Vingadores: Ultimato",
+    "ano": 2019,
+    "duracao": "03:01:00",
+    "orcamento": 356000000,
+    "poster": "https://img.elo7.com.br/product/zoom/259A7AA/big-poster-filme-vingadores-ultimato-lo001-tamanho-90x60-cm-poster-marvel.jpg",
+    "produtora_principal": "Marvel Studios",
+    "categorias": ["Ação", "Aventura", "Fantasia", "Super-herói"],
+    "diretores": ["Anthony Russo", "Joe Russo"],
+    "atores": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ],
+    "linguagens": ["Inglês", "Japonês", "Xhosa", "Alemão"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 12,
+    "titulo": "Interestelar",
+    "ano": 2014,
+    "duracao": "02:49:00",
+    "orcamento": 165000000,
+    "poster": "https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg",
+    "produtora_principal": "Paramount Pictures",
+    "categorias": ["Ficção Científica", "Aventura"],
+    "diretores": ["Christopher Nolan"],
+    "atores": ["Matthew McConaughey", "Anne Hathaway"],
+    "linguagens": ["Inglês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 13,
+    "titulo": "John Wick",
+    "ano": 2014,
+    "duracao": "01:41:00",
+    "orcamento": 20000000,
+    "poster": "https://img.elo7.com.br/product/zoom/265E435/big-poster-filme-john-wick-lo03-tamanho-90x60-cm-nerd.jpg",
+    "produtora_principal": "Thunder Road Pictures",
+    "categorias": ["Ação", "Suspense"],
+    "diretores": ["Chad Stahelski"],
+    "atores": ["Keanu Reeves", "Michael Nyqvist"],
+    "linguagens": ["Inglês", "Alemão", "Húngaro"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 14,
+    "titulo": "O Castelo Animado",
+    "ano": 2004,
+    "duracao": "01:59:00",
+    "orcamento": 24000000,
+    "poster": "https://i.pinimg.com/474x/ec/f5/96/ecf596b4b836dba11873a07b12381088.jpg",
+    "produtora_principal": "Studio Ghibli",
+    "categorias": ["Fantasia", "Animação"],
+    "diretores": ["Hayao Miyazaki"],
+    "atores": ["Chieko Baishô", "Takuya Kimura", "Akihiro Miwa"],
+    "linguagens": ["Japonês"],
+    "paises": ["Japão"]
+  },
+
+  {
+    "id": 15,
+    "titulo": "Homem-Aranha: Sem Volta Para Casa",
+    "ano": 2021,
+    "duracao": "02:28:00",
+    "orcamento": 200000000,
+    "poster": "https://cinecriticas.com.br/wp-content/uploads/2021/12/Cine1-12.jpg",
+    "produtora_principal": "Marvel Studios",
+    "categorias": ["Ação", "Aventura", "Ficção Científica", "Super-herói"],
+    "diretores": ["Jon Watts"],
+    "atores": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+    "linguagens": ["Inglês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 16,
+    "titulo": "Barbie",
+    "ano": 2023,
+    "duracao": "01:54:00",
+    "orcamento": 145000000,
+    "poster": "https://uauposters.com.br/media/catalog/product/cache/1/thumbnail/800x930/9df78eab33525d08d6e5fb8d27136e95/4/5/454520230615-uau-posters-barbie-2023-filmes-1.jpg",
+    "produtora_principal": "Warner Bros.",
+    "categorias": ["Comédia", "Fantasia"],
+    "diretores": ["Greta Gerwig"],
+    "atores": ["Margot Robbie", "Ryan Gosling", "America Ferrera"],
+    "linguagens": ["Inglês", "Espanhol"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 17,
+    "titulo": "Deadpool",
+    "ano": 2016,
+    "duracao": "01:48:00",
+    "orcamento": 58000000,
+    "poster": "https://img.elo7.com.br/product/zoom/1E3BBFE/big-poster-do-filme-deadpool-tamanho-90x-0-cm-loot-op-011-geek.jpg",
+    "produtora_principal": "20th Century Fox",
+    "categorias": ["Ação", "Comédia", "Super-herói"],
+    "diretores": ["Tim Miller"],
+    "atores": ["Ryan Reynolds", "Morena Baccarin"],
+    "linguagens": ["Inglês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 19,
+    "titulo": "Matrix",
+    "ano": 1999,
+    "duracao": "02:16:00",
+    "orcamento": 63000000,
+    "poster": "https://img.elo7.com.br/product/zoom/2679A17/big-poster-filme-matrix-lo02-tamanho-90x60-cm-poster-de-filme.jpg",
+    "produtora_principal": "Warner Bros.",
+    "categorias": ["Ação", "Ficção Científica"],
+    "diretores": ["Lana Wachowski", "Lilly Wachowski"],
+    "atores": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "linguagens": ["Inglês"],
+    "paises": ["Estados Unidos"]
+  },
+
+  {
+    "id": 20,
+    "titulo": "KPop Demon Hunters",
+    "ano": 2025,
+    "duracao": "01:45:00",
+    "orcamento": 80000000,
+    "poster": "https://m.media-amazon.com/images/I/81Mtr7elTnL.jpg",
+    "produtora_principal": "Sony Pictures Animation",
+    "categorias": ["Animação", "Fantasia", "Musical"],
+    "diretores": ["Maggie Kang", "Chris Appelhans"],
+    "atores": ["Ji-young Yoo", "May Hong", "Arden Cho"],
+    "linguagens": ["Coreano"],
+    "paises": ["Coreia do Sul"]
+  }
+]

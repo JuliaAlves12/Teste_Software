@@ -1,0 +1,45 @@
+.footer-container {
+    background-color: var(--superficie-cards);
+    border-top: 3px solid;
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 1;
+    padding: 24px 40px;
+    margin-top: auto; 
+    box-shadow: 0 -4px 20px var(--sombra-padrao);
+}
+
+.footer-content {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-content p {
+    color: var(--txt-principal);
+    font-size: 14px;
+    margin: 0;
+}
+
+.botao-logout-footer {
+    background-color: transparent;
+    border: 1px solid var(--error);
+    color: var(--error);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.botao-logout-footer:hover {
+    background-color: var(--erro-bg);
+    transform: translateY(-2px);
+}
+
+.botao-logout-footer:active {
+    transform: scale(0.95);
+}

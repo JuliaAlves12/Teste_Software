@@ -1,0 +1,25 @@
+.botao-acessar {
+    display: block;
+    text-align: center;
+    background-color: var(--bg);
+    border: 1px solid var(--primary);
+    color: var(--txt-principal);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-family: inherit;
+    margin-top: auto;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.botao-acessar:hover {
+    transform: translateY(-3px);
+    text-decoration: none;
+    box-shadow: 0 4px 12px var(--sombra-botao-brilho);
+    background-color: var(--superficie-cards);
+}
+
+.botao-acessar:active {
+    transform: scale(0.97);
+}
