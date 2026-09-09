@@ -23,7 +23,9 @@ export default function NavBar({ funcaoContraste, estaAtivo }) {
 
                 {token && (
                     <>
-                        <Link to="/add-movie" className="botao-adicionar">
+                        <Link to="/add-movie" className="botao-adicionar"
+                        data-testid="adicionar-filme"
+                        >
                             Adicionar Filme
                         </Link>
 

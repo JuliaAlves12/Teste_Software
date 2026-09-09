@@ -7,9 +7,9 @@ describe("Teste de navegação", ()=>{
         cy.wait(3000);
 
         //Colocando informações no login (Email + senha)
-        cy.get('#email').type('admin@example.com');
+        cy.get('input[type="email"]').type('admin@example.com');
         cy.wait(3000);
-        cy.get('#senha').type('admin');
+        cy.get('input[type="password"]').type('admin');
 
         //Clicando no botão de entrar
         cy.get('.botao-entrar').click()
@@ -33,5 +33,8 @@ describe("Teste de navegação", ()=>{
         //Clicando no Adicionar Filme da tela Home
         cy.get('.botao-adicionar').click();
         cy.wait(3000);
+
+        //Clicando em: Adicionando filme
+        cy.get('[data-testid="adicionar-filme"]').click();
     })
 })
